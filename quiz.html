@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Triangle Quiz</title>
+</head>
+
+
+<body>
+     <nav class="navigation container">
+       <h1> 
+           🔺 FUN WITH TRIANGLES 🔻
+        </h1>
+    
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link link-active " href="quiz.html">Quiz on Triangles</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link"  href="area.html">Area of Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="istriangle.html">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html"> Find Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+    <h2>Triangle Quiz</h2>
+    <p>Test Yourself</p>
+    <form class="quiz-form">
+        <div class="question-container">
+            <p>
+                What is third angle for the triangle where angle1 = 45° and angle2 = 45°?
+            </p>
+            <label><input type="radio" name="question1" value="45°" />45°</label>
+            <label><input type="radio" name="question1" value="60°" />60°</label>
+            <label><input type="radio" name="question1" value="90°" />90°</label>
+        </div>
+        <div class="question-container">
+            <p>
+                If a triangle has an angle of 90°, what is it called ?
+            </p>
+            <label><input type="radio" name="question2" value="acute" />acute</label>
+            <label><input type="radio" name="question2" value="obtuse" />obtuse</label>
+            <label><input type="radio" name="question2" value="right angled" />right angled</label>
+        </div>
+
+    </form>
+    <button id="submit-btn">Submit Answers</button>
+    <div id="output"></div>
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>

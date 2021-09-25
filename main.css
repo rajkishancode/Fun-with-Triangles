@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+body {
+    font-family: 'Gluten',
+    cursive;
+    background: url(triangle.jpg) no-repeat center center/cover;
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    font-size: larger;
+    transition: 1s;
+}
+
+
+#submit-btn {
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+#output {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: large;
+    color: black;
+}
+
+.quiz-form, .para {
+    font-size: larger;
+    margin: 0rem 2rem;
+    background-color: rgba(184, 43, 43, 0.226);
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    height: 100%;
+
+}
+
+
+.navigation  {
+
+    margin-bottom: 2em;
+    width: 25%;
+    background-color: rgb(174, 199, 182);
+    color: white;
+    padding: 2rem;
+    margin: auto;
+    
+
+}
+
+.navigation .link-active {
+    font-weight: bolder;
+    text-decoration-line: underline;
+
+}
+
+.question-container {
+    padding: 1rem 0.5rem;
+
+}
